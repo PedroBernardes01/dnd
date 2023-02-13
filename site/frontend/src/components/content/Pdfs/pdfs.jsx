@@ -1,5 +1,7 @@
 export default function Pdfs(){
-    return <div>
+    return (
+    <div>
         dasdadsdadad
     </div>
+    )
 }

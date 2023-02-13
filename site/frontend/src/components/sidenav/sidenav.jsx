@@ -6,7 +6,8 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 export default function sidenav(){
-    return <div id='sidenav'>
+    return (
+    <div id='sidenav'>
         <Button variant="outlined" class="ButHome">
           <Home/>
           Home
@@ -23,5 +24,6 @@ export default function sidenav(){
           <AutoStoriesIcon/>
           Tables
         </Button>
-    </div>;
+    </div>
+    );
 };
