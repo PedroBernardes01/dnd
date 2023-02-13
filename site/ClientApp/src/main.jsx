@@ -1,13 +1,8 @@
 import { Button, Space } from 'antd';
+import { SearchOutlined } from '@ant-design/icons';
 
 export default function Main(){
     return (
-        <Space wrap>
-            <Button type="primary">Primary Button</Button>
-            <Button>Default Button</Button>
-            <Button type="dashed">Dashed Button</Button>
-            <Button type="text">Text Button</Button>
-            <Button type="link">Link Button</Button>
-        </Space>
-    )
+        <div><SearchOutlined/></div>
+    );
 };
