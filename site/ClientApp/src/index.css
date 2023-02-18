@@ -1,1 +1,27 @@
-body {min-height: 100%; max-width: 100%; padding: 0px; margin: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+*{
+    transition: 500ms;
+    font-family: 'Baloo Da 2', cursive;
+}
+:root {
+    --primary: #024814;
+    --secondary: #53e8b9;
+    --background: rgb(33, 33, 33);
+}
+
+body {
+    min-height: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--background);
+}
+
+.Content{
+    right: 0;
+    position: absolute;
+    width: calc(100% - 100px);
+    height: 100%;
+    background-color: var(--background);
+}
