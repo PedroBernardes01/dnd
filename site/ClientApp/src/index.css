@@ -7,7 +7,7 @@
 :root {
     --primary: #024814;
     --secondary: #53e8b9;
-    --background: rgb(33, 33, 33);
+    --background: #002e20;
 }
 
 body {
@@ -19,6 +19,8 @@ body {
 }
 
 .Content{
+    display: flex;
+    flex-direction: column;
     right: 0;
     position: absolute;
     width: calc(100% - 100px);
